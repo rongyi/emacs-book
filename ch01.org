@@ -25,7 +25,7 @@ Emacs outshines all other editing software in approximately the same way that th
 I don't care about the OS I use, It is just a boot loader for Emacs anayway.[fn:2]
 #+END_QUOTE
 
-Why Emacs？跟个人的工作经验有关系，在上海的第一家公司周围的同事都是Emacs玩家，但当时自己Vim已经很熟练了，并且觉得Vim没有什么让我觉得不爽的地方，但是他们那么聪明选择用Emacs肯定是有原因的。于是这之间有很多次的尝试，这一尝试发现了Org mode，官方页面[fn:3]的Title是： Org mode for Emacs - Your Life in Plain Text。后面的介绍简直太Unix哲学了，看过《The Art of Unix Programming》[fn:4]都会知道Plain Text在命令行输出和管道之间有多重要。而我[fn:5]之前恰好玩过Latex知道这中玩法和Word的区别以及高效。通过这些工具可以完全抛弃鼠标去加粗/加标题等编辑工具，而在了解了Org mode之后发现这个就是简化版的Latex，所以之后虽然开发还在Vim下但是文档之类的都已经改到Emacs下编辑了。而且Vim这种带模式的用来编辑中文时中英文切换真是蛋疼的要死，而Emacs通过修饰键可以稍微舒服一点。
+Why Emacs？跟个人的工作经验有关系，在上海的第一家公司周围的同事都是Emacs玩家，但当时自己Vim已经很熟练了，并且觉得Vim没有什么让我觉得不爽的地方，所以没那么急着要切换过去，但是他们那么聪明选择用Emacs肯定是有原因的。于是这之间有很多次的尝试，这一尝试发现了Org mode，官方页面[fn:3]的Title是： Org mode for Emacs - Your Life in Plain Text。后面的介绍简直太Unix哲学了，看过《The Art of Unix Programming》[fn:4]都会知道Plain Text在命令行输出和管道之间有多重要。而我[fn:5]之前恰好玩过Latex知道这中玩法和Word的区别以及高效。通过这些工具可以完全抛弃鼠标去加粗/加标题等编辑工具，而在了解了Org mode之后发现这个就是简化版的Latex，所以之后虽然开发还在Vim下但是文档之类的都已经改到Emacs下编辑了。而且Vim这种带模式的用来编辑中文时中英文切换真是蛋疼的要死，而Emacs通过修饰键可以稍微舒服一点。
 * Footnotes
 
 [fn:1] http://cristal.inria.fr/~weis/info/commandline.html
