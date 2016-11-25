@@ -26,6 +26,13 @@ I don't care about the OS I use, It is just a boot loader for Emacs anayway.[fn:
 #+END_QUOTE
 
 Why Emacs？跟个人的工作经验有关系，在上海的第一家公司周围的同事都是Emacs玩家，但当时自己Vim已经很熟练了，并且觉得Vim没有什么让我觉得不爽的地方，所以没那么急着要切换过去，但是他们那么聪明选择用Emacs肯定是有原因的。于是这之间有很多次的尝试，这一尝试发现了Org mode，官方页面[fn:3]的Title是： Org mode for Emacs - Your Life in Plain Text。后面的介绍简直太Unix哲学了，看过《The Art of Unix Programming》[fn:4]都会知道Plain Text在命令行输出和管道之间有多重要。而我[fn:5]之前恰好玩过Latex知道这种玩法和Word的区别以及高效。通过这些工具可以完全抛弃鼠标来实现排版操作，而在了解了Org mode之后发现这个就是简化版的Latex，所以之后虽然开发还在Vim下但是文档之类的都已经全部改到Emacs下编辑了,并且Vim这种带模式的用来编辑中文时中英文切换真是蛋疼的要死，而Emacs通过修饰键可以稍微舒服一点。
+
+后面发现了一个Vim吊炸天的插件YouCompleteMe[fn:6]对比Emacs下的Company或者AutoComplete，简直可以完爆他们。后来YCM逐渐改变架构，变成了C/S模式可以将后端独立出来支持其他编辑器，再后来支持Emacs的前端[fn:7]也出现了，这个时候恰好有一些自己的时间所以就又开始了自己的倒腾之路。而这一次的折腾便渐渐的让自己待在Emacs下的时间越来越长，引用别人的一句话便是： =I don't use Emacs, I live in Emacs= 。
+
+Emacs VS Vim(带有个人偏见的看法，拒绝跟任何人撕逼)
++ Emacs的buffer是非常有效的IPC(InterProcessCommunication)桥梁，所以可以无缝结合一些REPL(Read Evaluate Print Loop)或者gdb等相比之下Vim略逊
++ Vim的model编辑是在有上下文编辑环境中个人感觉最快的，而Emacs的修饰键按多了小拇指疼的要死
++ 不要说启动速度，Vim是打开关闭打开关闭..., 而Emacs一般是开机打开Emacs.............关闭Emacs关机，所以用法不一样，那些说Vim在这方面占优势的只是不了解Emacs的使用模式而已。
 * Footnotes
 
 [fn:1] http://cristal.inria.fr/~weis/info/commandline.html
@@ -37,3 +44,7 @@ Why Emacs？跟个人的工作经验有关系，在上海的第一家公司周�
 [fn:4] https://book.douban.com/subject/1229959/
 
 [fn:5] 比较土，不会用笔者来代表自己。
+
+[fn:6] https://github.com/Valloric/YouCompleteMe
+
+[fn:7] https://github.com/abingham/emacs-ycmd
