@@ -37,6 +37,12 @@ Emacs VS Vim(带有个人偏见的看法，拒绝跟任何人撕逼)
 + 由于更有效的IPC，Emacs在TDD方面比Vim更胜一筹。可以是一个函数一个变量这样小的单位去测试，这样带来的是整个开发过程中morale的提升[fn:8]
 + 两个开源软件的维护者， RMS在2008年就step down[fn:9]了，去年又换帅[fn:10]，而Vim的维护者是这样回答这个问题：How can the community ensure that the Vim project succeeds for the foreseeable future? ==> Keep me alive。
 
+其他人的一些Why Emacs：
++ http://elephly.net/posts/2016-02-14-ilovefs-emacs.html
++ http://www.howardism.org/Technical/Emacs/why-emacs.html
++ http://blog.aaronbieber.com/2015/01/17/learning-to-love-emacs.html
++ http://batsov.com/articles/2011/11/19/why-emacs/ 作者有个有名的Emacs Starter kit: prelude[fn:11]。
+以上的每一篇文章都推荐阅读
 
 * Footnotes
 
@@ -48,14 +54,16 @@ Emacs VS Vim(带有个人偏见的看法，拒绝跟任何人撕逼)
 
 [fn:4] https://book.douban.com/subject/1229959/
 
-[fn:5] 比较土，不会用笔者来代表自己。
+[fn:5] 作者比较土，不会用笔者来代表自己。
 
 [fn:6] https://github.com/Valloric/YouCompleteMe
 
 [fn:7] https://github.com/abingham/emacs-ycmd
 
-[fn:8] 这点PG在《黑客与画家》这本书有详细讲解。而我准备把全文摘抄在这里： Building somthing by gradually refining a prototype is good for morale because it keeps you engaged. In software, my rule is: always have working code. If you're writing something you'll be able to test in an hour, you have the prospect of an immediate reward to motivate you. The save is true in the arts, an particularly in oil painting. Most painters start with a blurry sketch and gradually refine it.
+[fn:8] 这点PG在《黑客与画家》这本书有详细讲解。而我准备把全文摘抄在这里： Building something by gradually refining a prototype is good for morale because it keeps you engaged. In software, my rule is: always have working code. If you're writing something you'll be able to test in an hour, you have the prospect of an immediate reward to motivate you. The save is true in the arts, an particularly in oil painting. Most painters start with a blurry sketch and gradually refine it.
 
 [fn:9] http://lists.gnu.org/archive/html/emacs-devel/2008-02/msg02140.html
 
 [fn:10] https://lists.gnu.org/archive/html/emacs-devel/2015-09/msg00849.html
+
+[fn:11] https://github.com/bbatsov/prelude
