@@ -48,9 +48,13 @@ Emacs VS Vim(带有个人偏见的看法，拒绝跟任何人撕逼)
   #+BEGIN_SRC bash
   emacs #启动并加载~/.emacs.d/init.el配置
   emacs -Q #启动不加载任何配置
+  # 如果配置文件太多，造成启动速度慢，可以用daemon/client方式启动
   emacs --daemon # 以daemon方式启动Emacs
   emacsclient -c # 之后以client方式连接Emacs daemon
   #+END_SRC
+
+  [[./img/emacs-start.png]]
+  #+CAPTION: emacs启动
 
 * Footnotes
 
