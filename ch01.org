@@ -53,8 +53,25 @@ Emacs VS Vim(带有个人偏见的看法，拒绝跟任何人撕逼)
   emacsclient -c # 之后以client方式连接Emacs daemon
   #+END_SRC
 
-  [[./img/emacs-start.png]]
-  #+CAPTION: emacs启动
+  #+CAPTION: Ubuntu下Emacs不带任何参数的启动界面
+  [[file:img/emacs-start.png]]
+
+* 键盘描述约定：
+
+| Key  | Description                                    |
+|------+------------------------------------------------|
+|      |                                                |
+| C-   | (press and hold) the Control key               |
+| M-   | the Meta key (the Alt key, on most keyboards)  |
+| S-   | the Shift key (e.g. ‘S-TAB’ means Shift Tab) |
+| DEL  | the Backspace key (not the Delete key)         |
+| RET  | the Return or Enter key                        |
+| SPC  | the Space bar                                  |
+| ESC  | the Escape key                                 |
+| TAB  | the Tab key                                    |
+| <F1> | F1 key                                         |
+
+当文中出现 =<C-c>= 意思就是同时按下Ctrl键和c键， =<C-C>= 意思是同时按下Ctrl键和C键，而C键需要通过 =<S-c>= 实现。其他以此类推。
 
 * Footnotes
 
