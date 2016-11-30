@@ -71,7 +71,7 @@ Emacs VS Vim(带有个人偏见的看法，拒绝跟任何人撕逼)
 | TAB  | the Tab key                                    |
 | <F1> | F1 key                                         |
 
-当文中出现 =<C-c>= 意思就是同时按下Ctrl键和c键， =<C-C>= 意思是同时按下Ctrl键和C键，而C键需要通过 =<S-c>= 实现。其他以此类推。
+当文中出现 =<C-c>= 意思就是同时按下Ctrl键和c键， =<C-C>= 意思是同时按下Ctrl Shift c。其他以此类推。
 
 * Footnotes
 
