@@ -44,18 +44,6 @@ Emacs VS Vim(带有个人偏见的看法，拒绝跟任何人撕逼)
 + http://batsov.com/articles/2011/11/19/why-emacs/ 作者有个有名的Emacs Starter kit: prelude[fn:11]。
 以上的每一篇文章都推荐阅读
 
-* 启动Emacs
-  #+BEGIN_SRC bash
-  emacs #启动并加载~/.emacs.d/init.el配置
-  emacs -Q #启动不加载任何配置
-  # 如果配置文件太多，造成启动速度慢，可以用daemon/client方式启动
-  emacs --daemon # 以daemon方式启动Emacs
-  emacsclient -c # 之后以client方式连接Emacs daemon
-  #+END_SRC
-
-  #+CAPTION: Ubuntu下Emacs不带任何参数的启动界面
-  [[file:img/emacs-start.png]]
-
 * 键盘描述约定：
 
 | Key  | Description                                    |
@@ -72,6 +60,34 @@ Emacs VS Vim(带有个人偏见的看法，拒绝跟任何人撕逼)
 | <F1> | F1 key                                         |
 
 当文中出现 =<C-c>= 意思就是同时按下Ctrl键和c键， =<C-C>= 意思是同时按下Ctrl Shift c。其他以此类推。
+
+* 初接触
+  #+BEGIN_SRC bash
+  emacs #启动并加载~/.emacs.d/init.el配置
+  emacs -Q #启动不加载任何配置
+  # 如果配置文件太多，造成启动速度慢，可以用daemon/client方式启动
+  emacs --daemon # 以daemon方式启动Emacs
+  emacsclient -c # 之后以client方式连接Emacs daemon
+  #+END_SRC
+
+  #+CAPTION: Ubuntu下Emacs不带任何参数的启动界面
+  [[file:img/emacs-start.png]]
+
+  退出Emacs
+#+BEGIN_SRC bash
+C-x C-c
+或者 M-x save-buffers-kill-emacs
+#+END_SRC
+
+* 帮助系统
+Emacs自带强大的帮助系统，个人比较常用的有以下一些
+| Key     | 说明                                      |
+|---------+-------------------------------------------|
+| C-h v   | 查询一些Variable的的含义                  |
+| C-h f   | 查询一些函数的                            |
+| C-h k   | 查询Emacs按键绑定的函数并列出此函数的意思 |
+| C-h C-h | 列出帮助系统的一些帮助类别，相当于帮助系统的帮助系统 |
+
 
 * Footnotes
 
