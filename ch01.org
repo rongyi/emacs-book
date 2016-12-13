@@ -92,6 +92,7 @@ Emacs自带强大的帮助系统，个人比较常用的有以下一些
 * 警告
 请一定警惕Emacs Trap[fn:12]， Emacs的本质在与其工具性， 而工具只有使用才有价值，所谓磨刀不误砍柴工，对Emacs的学习和配置就相当于在磨刀，而如果不“砍柴”只是磨刀的话显然就掉进Emacs的坑里，所以配置好的一个功能只有反复使用才会发挥其价值，也就是前期投入的时间在后面反复使用中赚回来了。
 
+
 * Footnotes
 
 [fn:1] http://cristal.inria.fr/~weis/info/commandline.html
