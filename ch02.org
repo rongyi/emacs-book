@@ -23,7 +23,20 @@
 
 针对以上需求对于像C/C++语言Emacs推荐的是Global这个GNU软件来实现对静态代码生成TAGS文件来方便代码阅读，对于查找个人则喜欢用ag这个命令来实现，而Emacs则有ag的一堆wrapper。而Emacs自带bookmark。gdb除了用tui之外在Emacs中使用也不失为一种好的方式，当然这层wrapper还是要费内存的，像Chromium这样的大的C++程序编译带调试信息的贼大，命令行中都卡成狗在Emacs里就不要玩了。下文就逐个叙述具体细节
 * 关于配置Emacs的方法
-  Emacs当前的maintainer写的一个插件叫use-package是一个比较好用的配置Emacs的工具，所以本文都是使用use-package在配置，另外由于操蛋的国内网络环境，连国外的Emacs源（Emacs里叫emacs lisp package archive）
+  Emacs当前的maintainer写的一个插件叫use-package是一个比较好用的配置Emacs的工具，所以本文都是使用use-package在配置，另外由于操蛋的国内网络环境，连国外的Emacs源（Emacs里叫emacs lisp package archive）经常断所以可以配置国内的镜像源，通过这样的配置来实现：
+  #+BEGIN_SRC emacs-lisp
+;; package initialization
+(require 'package)
+(setq package-archives '(("melpa" . "http://elpa.emacs-china.org/melpa/")
+                         ("org" . "http://elpa.emacs-china.org/org/")
+                         ("gnu" . "http://elpa.emacs-china.org/gnu/")))
+(package-initialize)
+
+;; Bootstrap use-package
+(unless (package-installed-p 'use-package)
+  (package-refresh-contents)
+  (package-install 'use-package))
+  #+END_SRC
 * Global配置
 ** 编译安装Global
 到https://www.gnu.org/software/global/ 下载最新global源码
@@ -36,7 +49,15 @@ make
 # 需要root权限
 sudo make install
 #+END_SRC
-**
+** Emacs里的配置
+#+BEGIN_SRC emacs-lisp
+(use-package helm-gtags
+  :ensure t
+  :init
+  ;; from the document
+  ;; Enable fuzzy match. You should set this value before loading helm-gtags.el
+  (setq helm-gtags-fuzzy-match t))
+#+END_SRC
 
 
 * Footnotes
