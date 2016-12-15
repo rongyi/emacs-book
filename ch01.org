@@ -98,7 +98,7 @@ Many Emacs advocates fall for the trap of apologizing for why Emacs is not Unixy
   #+END_QUOTE
 
 * OS版本
-  对于开发而言还是GNU/Linux或者macos平台，Emacs支持主流平台，甚至在Android上也可以。[fn:14]
+  对于开发而言还是GNU/Linux或者macos平台，Emacs支持主流平台，甚至在Android上也可以[fn:14]。本介绍在Linux下完成。macos平台应该也适用。
 
 * Footnotes
 
