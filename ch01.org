@@ -78,6 +78,7 @@ Emacs VS Vim(带有个人偏见的看法，拒绝跟任何人撕逼)
 C-x C-c
 或者 M-x save-buffers-kill-emacs
 #+END_SRC
+  UI方面的说明这篇文章[fn:15]已经写的非常好，这里不再赘述。
 
 * 帮助系统
 Emacs自带强大的帮助系统，个人比较常用的有以下一些
@@ -129,3 +130,5 @@ Many Emacs advocates fall for the trap of apologizing for why Emacs is not Unixy
 [fn:13] https://news.ycombinator.com/item?id=11099972
 
 [fn:14] http://endlessparentheses.com/running-emacs-on-android.html
+
+[fn:15] http://www.braveclojure.com/basic-emacs/

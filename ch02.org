@@ -1,0 +1,44 @@
+#+TITLE: 阅读源码
+#+DATE: <2016-12-15 四>
+#+AUTHOR: 荣怡
+#+EMAIL: sqrongyi@163
+#+OPTIONS: ':nil *:t -:t ::t <:t H:3 \n:nil ^:{} arch:headline
+#+OPTIONS: author:t c:nil creator:comment d:(not "LOGBOOK") date:t
+#+OPTIONS: e:t email:nil f:t inline:t num:t p:nil pri:nil stat:t
+#+OPTIONS: tags:t tasks:t tex:t timestamp:t toc:t todo:t |:t
+#+CREATOR: Emacs 25.1.1 (Org mode 8.2.10)
+#+DESCRIPTION:
+#+EXCLUDE_TAGS: noexport
+#+KEYWORDS:
+#+LANGUAGE: en
+#+SELECT_TAGS: export
+* 简介
+本章介绍阅读源码需要的一些工具和Emacs相关配置，关于UI部分的调优可以参见Emacs naked[fn:1]。本教程不浪费篇幅在这里。
+
+个人阅读源码对于编辑器的需求主要有以下几点：
++ go to definition
++ 查找/跳转
++ bookmark
++ gdb跟踪
+
+针对以上需求对于像C/C++语言Emacs推荐的是Global这个GNU软件来实现对静态代码生成TAGS文件来方便代码阅读，对于查找个人则喜欢用ag这个命令来实现，而Emacs则有ag的一堆wrapper。而Emacs自带bookmark。gdb除了用tui之外在Emacs中使用也不失为一种好的方式，当然这层wrapper还是要费内存的，像Chromium这样的大的C++程序编译带调试信息的贼大，命令行中都卡成狗在Emacs里就不要玩了。下文就逐个叙述具体细节
+* 关于配置Emacs的方法
+  Emacs当前的maintainer写的一个插件叫use-package是一个比较好用的配置Emacs的工具，所以本文都是使用use-package在配置，另外由于操蛋的国内网络环境，连国外的Emacs源（Emacs里叫emacs lisp package archive）
+* Global配置
+** 编译安装Global
+到https://www.gnu.org/software/global/ 下载最新global源码
+#+BEGIN_SRC bash
+#2016年12月15日的最新版本
+tar xvf global-6.5.5.tar.gz -C /tmp
+cd /tmp/global-6.5.5
+./configure
+make
+# 需要root权限
+sudo make install
+#+END_SRC
+**
+
+
+* Footnotes
+
+[fn:1] https://emacs-doctor.com/emacs-strip-tease.html
