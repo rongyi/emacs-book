@@ -97,6 +97,9 @@ Emacs自带强大的帮助系统，个人比较常用的有以下一些
 Many Emacs advocates fall for the trap of apologizing for why Emacs is not Unixy, as though it were some sort of defect. They should celebrate the fact that Emacs doesn't come from the Unix tradition of small, composable tools and "doing only one thing and doing it well". It is rooted in the ambitious work of the MIT Artificial Intelligence lab, the LISP programming language, and the single user MIT Lisp Machine that essentially booted up to a LISP REPL. [fn:13]
   #+END_QUOTE
 
+* OS版本
+  对于开发而言还是GNU/Linux或者macos平台，Emacs支持主流平台，甚至在Android上也可以。[fn:14]
+
 * Footnotes
 
 [fn:1] http://cristal.inria.fr/~weis/info/commandline.html
@@ -124,3 +127,5 @@ Many Emacs advocates fall for the trap of apologizing for why Emacs is not Unixy
 [fn:12] 这个是在Let over lambda那本书里提及的，个人对此深表认同。
 
 [fn:13] https://news.ycombinator.com/item?id=11099972
+
+[fn:14] http://endlessparentheses.com/running-emacs-on-android.html
