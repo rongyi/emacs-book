@@ -91,7 +91,7 @@ Emacs自带强大的帮助系统，个人比较常用的有以下一些
 其中对函数和key的查询应该是最长应用的场景，所以而其他的你可以通过记住 =C-h C-h= 来查询即可。
 
 * 警告
-请一定警惕Emacs Trap[fn:12]， Emacs的本质在与其工具性， 而工具只有使用才有价值，所谓磨刀不误砍柴工，对Emacs的学习和配置就相当于在磨刀，而如果不“砍柴”只是磨刀的话显然就掉进Emacs的坑里，所以配置好的一个功能只有反复使用才会发挥其价值，也就是前期投入配置的时间在后面反复使用中“收回投资”
+请一定警惕Emacs Trap[fn:12]， Emacs的本质在与其工具性， 而工具只有使用才有价值，所谓磨刀不误砍柴工，对Emacs的学习和配置就相当于在磨刀，而如果不“砍柴”只是磨刀的话显然就掉进Emacs的坑里，所以配置好的一个功能只有反复使用(coding)才会发挥其价值，也就是前期投入配置的时间在后面反复使用中“收回投资”
 
 * Not UNIX?
   #+BEGIN_QUOTE
@@ -111,7 +111,7 @@ Many Emacs advocates fall for the trap of apologizing for why Emacs is not Unixy
 
 [fn:4] https://book.douban.com/subject/1229959/
 
-[fn:5] 作者比较土，不会用笔者来代表自己。
+[fn:5] 我比较土，不会用笔者来代表自己。
 
 [fn:6] https://github.com/Valloric/YouCompleteMe
 
@@ -125,7 +125,7 @@ Many Emacs advocates fall for the trap of apologizing for why Emacs is not Unixy
 
 [fn:11] https://github.com/bbatsov/prelude
 
-[fn:12] 这个是在Let over lambda那本书里提及的，个人对此深表认同。
+[fn:12] 这个是在Let Over Lambda那本书里提及的，个人对此深表认同。因为也掉过坑里。
 
 [fn:13] https://news.ycombinator.com/item?id=11099972
 
