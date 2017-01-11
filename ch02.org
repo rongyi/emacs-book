@@ -23,7 +23,12 @@
 
 针对以上需求对于像C/C++语言Emacs推荐的是Global这个GNU软件来实现对静态代码生成TAGS文件来方便代码阅读，对于查找个人则喜欢用ag这个命令来实现，而Emacs则有ag的一堆wrapper。而Emacs自带bookmark。gdb除了用tui之外在Emacs中使用也不失为一种好的方式，当然这层wrapper还是要费内存的，像Chromium这样的大的C++程序编译带调试信息的贼大，命令行中都卡成狗在Emacs里就不要玩了。下文就逐个叙述具体细节
 * 配置之前的说明
-  首先摆在前面的一个大坑是Emacs Lisp
+  首先摆在前面的一个大坑是Emacs Lisp, 需要花一些时间在上面，比较好的链接推荐有：
+  + https://github.com/chrisdone/elisp-guide
+  + http://smacs.github.io/elisp/
+  + http://caiorss.github.io/Emacs-Elisp-Programming/
+
+  以上几个链接对于学习elisp看懂基本的配置足够了。
 * 关于配置Emacs的方法
   Emacs当前的maintainer写的一个插件叫use-package是一个比较好用的配置Emacs的工具，所以本文都是使用use-package在配置，另外由于操蛋的国内网络环境，连国外的Emacs源（Emacs里叫emacs lisp package archive）经常断所以可以配置国内的镜像源，通过这样的配置来实现：
   #+BEGIN_SRC emacs-lisp
