@@ -29,8 +29,8 @@
   + http://caiorss.github.io/Emacs-Elisp-Programming/
 
   以上几个链接对于学习elisp看懂基本的配置足够了。
-* 关于配置Emacs的方法
-  Emacs当前的maintainer写的一个插件叫use-package是一个比较好用的配置Emacs的工具，所以本文都是使用use-package在配置，另外由于操蛋的国内网络环境，连国外的Emacs源（Emacs里叫emacs lisp package archive）经常断所以可以配置国内的镜像源，通过这样的配置来实现：
+* 配置之前的配置
+  Emacs当前的maintainer写的一个插件叫use-package是一个比较好用的配置Emacs的工具，所以本文都是使用use-package在配置，另外由于操蛋的国内网络环境，连国外的Emacs源（Emacs里叫emacs lisp package archive, ELPA）经常断所以可以配置国内Emacs爱好者搭建的镜像源，通过这样的配置来实现：
   #+BEGIN_SRC emacs-lisp
 ;; package initialization
 (require 'package)
