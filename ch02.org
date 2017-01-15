@@ -69,7 +69,18 @@ sudo make install
 #+BEGIN_SRC bash
 sudo apt-get install silversearcher-ag
 #+END_SRC
-
+* install ag emacs binding
+#+BEGIN_SRC emacs-lisp
+(use-package helm-ag
+  :ensure t
+  :bind (("C-c s a" . helm-ag-project-root)
+         ("C-c s A" . helm-ag)
+         ("C-c s c" . helm-ag-this-file))
+  :config
+  (setq helm-ag-fuzzy-match t
+        helm-ag-insert-at-point 'symbol
+        helm-ag-edit-save t))
+#+END_SRC
 
 * Footnotes
 
