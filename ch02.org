@@ -65,6 +65,10 @@ sudo make install
   ;; Enable fuzzy match. You should set this value before loading helm-gtags.el
   (setq helm-gtags-fuzzy-match t))
 #+END_SRC
+* install ag
+#+BEGIN_SRC bash
+sudo apt-get install silversearcher-ag
+#+END_SRC
 
 
 * Footnotes
