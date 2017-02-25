@@ -15,6 +15,10 @@
 
 
 * 简介
+#+BEGIN_QUOTE
+Nothing's quite so demoralizing as a tool hang-up. Buy good tools as you can afford them ans you'll never regret it.
+--  Zen and the art of motorcycle maintenance
+#+END_QUOTE
 Emacs是Edit Macros的简写。前身是TECO(Text Editor and Corrector)。 诞生于1976年的MIT AIlab， 除了RMS之外， 看《Coders at Works》的介绍， Guy Steele， JWZ等当时都贡献了不少代码，也就是说这个软件已经四十年了。来看看经常使用Emacs的人对这个软件的评价：
 #+BEGIN_QUOTE
 Emacs outshines all other editing software in approximately the same way that the noonday sun does the stars. It is not just bigger and brighter; it simply makes everything else vanish
