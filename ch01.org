@@ -17,7 +17,12 @@
 * 简介
 #+BEGIN_QUOTE
 Nothing's quite so demoralizing as a tool hang-up. Buy good tools as you can afford them ans you'll never regret it.
+
 --  Zen and the art of motorcycle maintenance
+
+工欲善其事，必先利其器
+
+-- 《论语》
 #+END_QUOTE
 Emacs是Edit Macros的简写。前身是TECO(Text Editor and Corrector)。 诞生于1976年的MIT AIlab， 除了RMS之外， 看《Coders at Works》的介绍， Guy Steele， JWZ等当时都贡献了不少代码，也就是说这个软件已经四十年了。来看看经常使用Emacs的人对这个软件的评价：
 #+BEGIN_QUOTE
@@ -103,7 +108,7 @@ Many Emacs advocates fall for the trap of apologizing for why Emacs is not Unixy
   #+END_QUOTE
 
 * OS版本
-  对于开发而言还是GNU/Linux或者macos平台，Emacs支持主流平台，甚至在Android上也可以[fn:14]。本介绍在Linux下完成。macos平台应该也适用。
+  对于开发而言还是GNU/Linux或者macos平台，Emacs支持主流平台，甚至在Android上也可以[fn:14]。本介绍在Linux下完成。macos平台应该也适用。Linux上面轻松搞定，但macos上发现有些版本在图形方面有些delay，推荐按照Howard Abrams的dot-files[fn:16] 去安装，整体试下来这样安装的版本用起来最快。
 
 * Footnotes
 
@@ -136,3 +141,5 @@ Many Emacs advocates fall for the trap of apologizing for why Emacs is not Unixy
 [fn:14] http://endlessparentheses.com/running-emacs-on-android.html
 
 [fn:15] http://www.braveclojure.com/basic-emacs/
+
+[fn:16] https://github.com/howardabrams/dot-files
