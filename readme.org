@@ -3,4 +3,12 @@
 
   希望能对学习Emacs起到入门的作用。
 
-  主要偏重在编程角度去使用Emacs。而语言主要包括： C/C++/Python/Golang/JS
+  本文主要偏重在编程角度切入去使用Emacs。而语言主要包括： C/C++/Python/Golang/JS
+
+  另外还有CEO角度和作家角度使用Emacs的经验总结, 请参考[fn:1][fn:2]
+
+* Footnotes
+
+[fn:1] https://www.youtube.com/watch?v=FtieBc3KptU
+
+[fn:2] https://news.ycombinator.com/item?id=10642088
