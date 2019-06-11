@@ -16,7 +16,7 @@
 
 * 简介
 #+BEGIN_QUOTE
-Nothing's quite so demoralizing as a tool hang-up. Buy good tools as you can afford them ans you'll never regret it.
+Nothing's quite so demoralizing as a tool hang-up. Buy good tools as you can afford them and you'll never regret it.
 
 --  Zen and the art of motorcycle maintenance
 
